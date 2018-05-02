@@ -1,0 +1,108 @@
+body * {
+  font-family: "Roboto Slab", serif !important;
+  line-height: 1.7em;
+}
+
+.top-bar {
+  overflow: hidden;
+  height: 10px;
+  top: 0;
+  width: 100%;
+  border-radius: 0%;
+}
+
+.progress-label-left {
+  white-space: nowrap;
+  position: absolute;
+  width: auto;
+  font-size: 0.92857143em;
+  top: 50%;
+  left: 0.5em;
+  right: auto;
+  bottom: auto;
+  text-shadow: none;
+  margin-top: -0.7em;
+  font-weight: 700;
+  text-align: right;
+}
+
+.ui.progress > .label {
+  font-weight: initial;
+}
+
+#name {
+  font-size: 60px;
+}
+
+#title {
+  text-transform: uppercase;
+  margin: 30px;
+  font-size: 30px;
+}
+
+#experience,
+#education,
+#expertise {
+  margin: 1rem 0;
+  padding: 1em 1em;
+}
+
+#experience:hover,
+#education:hover,
+#expertise:hover {
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  -webkit-box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+  box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.ui .list .item .image {
+  float: left;
+}
+
+.ui .list .item .content {
+  width: 90%;
+}
+
+@media print {
+  body {
+    width: 842px;
+  }
+  #name {
+    font-size: 35px;
+  }
+  #title {
+    font-size: 20px;
+  }
+
+  div {
+    page-break-inside: avoid;
+  }
+  body * {
+    font-family: "Roboto Slab", serif !important;
+    line-height: 1.5em;
+  }
+}
+
+#title {
+  margin-top: -10px;
+}
+
+#meta {
+  margin-top: -18px;
+}
+
+#info {
+  margin: 2em -2em;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.card .image {
+  max-height: 200px;
+  min-height: 200px;
+  overflow: hidden;
+}

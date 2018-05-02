@@ -5,104 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="image/abutaher.jpeg" />
     <title>Md. Abu Taher | Full Stack Developer</title>
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
-    <style>
-        body * {
-            font-family: 'Roboto Slab', serif !important;
-            line-height: 1.7em;
-        }
-
-        .top-bar {
-            overflow: hidden;
-            height: 10px;
-            top: 0;
-            width: 100%;
-            border-radius: 0%;
-        }
-
-        .progress-label-left {
-            white-space: nowrap;
-            position: absolute;
-            width: auto;
-            font-size: .92857143em;
-            top: 50%;
-            left: .5em;
-            right: auto;
-            bottom: auto;
-            text-shadow: none;
-            margin-top: -.7em;
-            font-weight: 700;
-            text-align: right;
-        }
-
-        .ui.progress>.label {
-            font-weight: initial
-        }
-
-        #name {
-            font-size: 60px;
-        }
-
-        #title {
-            text-transform: uppercase;
-            margin: 30px;
-            font-size: 30px;
-        }
-
-        #experience,
-        #education,
-        #expertise {
-            margin: 1rem 0;
-            padding: 1em 1em;
-        }
-
-        #experience:hover,
-        #education:hover,
-        #expertise:hover {
-            cursor: pointer;
-            background: #fff;
-            border: none;
-            -webkit-box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
-            box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
-            -webkit-transform: translateY(-3px);
-            transform: translateY(-3px);
-        }
-
-        .ui .list .item .image {
-            float: left
-        }
-
-        .ui .list .item .content {
-            width: 90%;
-        }
-
-        @media print {
-            div {
-                page-break-inside: avoid;
-            }
-            body * {
-                font-family: 'Roboto Slab', serif !important;
-                line-height: 1.5em;
-            }
-        }
-
-        #info {
-            margin: 2em -2em;
-            border-top: 1px solid rgb(221, 221, 221);
-            border-bottom: 1px solid rgb(221, 221, 221);
-        }
-
-        .card .image {
-            max-height: 200px;
-            min-height: 200px;
-            overflow: hidden;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -110,11 +18,19 @@
         <div class="ui blue segment inverted">
             <div class="top-bar"></div>
         </div>
-        <div id="name" class="ui huge header blue center aligned" style="text-transform: uppercase">Md. Abu
-            <b style="color:black">Taher</b>
+        <div class="ui grid eleven column centered">
+            <div class="three wide column">
+                <img class="ui medium circular image" src="image/abutaher.jpeg">
+            </div>
+            <div class="eight wide column">
+                <div id="name" class="ui huge header blue center aligned" style="text-transform: uppercase">Md. Abu
+                    <b style="color:black">Taher</b>
+                </div>
+                <div id="title" class="ui center aligned grid header">Full Stack Developer</div>
+                <div id="meta" class="ui center aligned grid small">019 536 38451 *
+                    <a href="mailto:hi@abutaher.pw">hi@abutaher.pw</a> * Dhaka, Bangladesh</div>
+            </div>
         </div>
-        <div id="meta" class="ui center aligned grid small">019 536 38451 * <a href="mailto:hi@abutaher.pw">hi@abutaher.pw</a> * Dhaka, Bangladesh</div>
-        <div id="title" class="ui center aligned grid header">Full Stack Developer</div>
         <div class="row">
             <div id="intro" class="ui centered grid">
                 <p class="ui twelve wide column justified">I'm a Full Stack Developer, focused on web automation, open source enthusiast and contributor. Pationate
@@ -239,7 +155,7 @@
         <div>
             <div class="ui center aligned huge header">Portfolio</div>
 
-            <div class="ui link cards three wide">
+            <div class="ui link cards two wide">
                 <div class="card">
 
                     <div class="image">
