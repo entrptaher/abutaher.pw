@@ -72,7 +72,7 @@ body * {
     width: 842px;
   }
   #name {
-    font-size: 35px;
+    font-size: 40px;
   }
   #title {
     font-size: 20px;
@@ -88,11 +88,11 @@ body * {
 }
 
 #title {
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 #meta {
-  margin-top: -18px;
+  margin-top: -5px;
 }
 
 #info {
