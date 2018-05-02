@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Md. Abu Taher | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <style>
+        body * {
+            font-family: 'Roboto Slab', serif !important;
+            line-height: 1.7em;
+        }
+
+        .top-bar {
+            overflow: hidden;
+            height: 10px;
+            top: 0;
+            width: 100%;
+            border-radius: 0%;
+        }
+
+        .progress-label-left {
+            white-space: nowrap;
+            position: absolute;
+            width: auto;
+            font-size: .92857143em;
+            top: 50%;
+            left: .5em;
+            right: auto;
+            bottom: auto;
+            text-shadow: none;
+            margin-top: -.7em;
+            font-weight: 700;
+            text-align: right;
+        }
+
+        .ui.progress>.label {
+            font-weight: initial
+        }
+
+        #name {
+            font-size: 60px;
+        }
+
+        #title {
+            text-transform: uppercase;
+            margin: 30px;
+            font-size: 30px;
+        }
+
+        #experience,
+        #education,
+        #expertise {
+            margin: 1rem 0;
+            padding: 1em 1em;
+        }
+
+        #experience:hover,
+        #education:hover,
+        #expertise:hover {
+            cursor: pointer;
+            background: #fff;
+            border: none;
+            -webkit-box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+            box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+            -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+        }
+
+        .ui .list .item .image {
+            float: left
+        }
+
+        .ui .list .item .content {
+            width: 90%;
+        }
+
+        @media print {
+            div {
+                page-break-inside: avoid;
+            }
+            body * {
+                font-family: 'Roboto Slab', serif !important;
+                line-height: 1.5em;
+            }
+        }
+
+        #info {
+            margin: 2em -2em;
+            border-top: 1px solid rgb(221, 221, 221);
+            border-bottom: 1px solid rgb(221, 221, 221);
+        }
+
+        .card .image {
+            max-height: 200px;
+            min-height: 200px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ui container">
+        <div class="ui blue segment inverted">
+            <div class="top-bar"></div>
+        </div>
+        <div id="name" class="ui huge header blue center aligned" style="text-transform: uppercase">Md. Abu
+            <b style="color:black">Taher</b>
+        </div>
+        <div id="meta" class="ui center aligned grid small">019 536 38451 * hi@abutaher.pw * Dhaka, Bangladesh</div>
+        <div id="title" class="ui center aligned grid header">Full Stack Developer</div>
+        <div class="row">
+            <div id="intro" class="ui centered grid">
+                <p class="ui twelve wide column justified">I'm a Full Stack Developer, focused on web automation, open source enthusiast and contributor. Pationate
+                    about programming, speciallizing in Javascript who wants to be a machine learning expert someday. Love
+                    to experient with new technologies, solve complex problems, learn and teach about programming.</p>
+            </div>
+        </div>
+        <div class="ui center aligned huge header">Resume</div>
+        <div class="ui grid divided" id="info">
+            <div class="eight wide column" id="left">
+                <div id="experience">
+                    <h3>Experience</h3>
+                    <div class="ui celled list">
+                        <div class="item">
+                            <img class="ui avatar image" src="image/vanila.png">
+                            <div class="content">
+                                <div class="header">Full Stack Developer</div>
+                                <div class="sub-header">
+                                    <b>Vanila.io</b> (Feb 2017 - Feb 2018)</div>
+                                Front-end, Back-end, server management, deployment, automation scripts.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="image/automatio.jpg">
+                            <div class="content">
+                                <div class="header">Back-end Developer</div>
+                                <div class="sub-header">
+                                    <b>Automatio.co</b> (Apr 2017 - Feb 2018)</div>
+                                Back-end, deployment, automation scripts, front-end.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="image/peopleperhour.png">
+                            <div class="content">
+                                <div class="header">Web Developer</div>
+                                <div class="sub-header">
+                                    <b>Freelancer</b> (2011 - Current)</div>
+                                Mostly with direct and offshore clients.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="education">
+                    <h3>Education</h3>
+                    <div class="ui celled list">
+                        <div class="item">
+                            <img class="ui avatar image" src="image/cambrian.png">
+                            <div class="content">
+                                <div class="header">Secondary School Certificate</div>
+                                <div class="sub-header">Cambrian School and College</div>
+                                2009-2011
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="image/cambrian.png">
+                            <div class="content">
+                                <div class="header">Higher Secondary School Certificate</div>
+                                <div class="sub-header">Cambrian School and College</div>
+                                2011-2013
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui avatar image" src="image/unisa.jpeg">
+                            <div class="content">
+                                <div class="header">Bachelor in Computer Science and Engineering</div>
+                                <div class="sub-header">University of South Asia</div>
+                                2016 - Current
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eight wide column">
+                <div id="expertise">
+                    <h3>Expertise</h3>
+                    <div class="ui ">
+                        <div class="ui active  indicating progress green">
+                            <div class="bar" style="width: 80%"></div>
+                            <div class="progress-label-left">Web Development</div>
+                            <div class="label">Javascript, Node.JS, ExpressJS</div>
+                        </div>
+                        <div class="ui green active indicating progress">
+                            <div class="bar" style="width: 80%"></div>
+                            <div class="progress-label-left">Web Automation </div>
+                            <div class="label">Puppeteer, NightmareJS</div>
+                        </div>
+                        <div class="ui blue active indicating progress">
+                            <div class="bar" style="width: 70%"></div>
+                            <div class="progress-label-left">Web Design </div>
+                            <div class="label">HTML, CSS, SCSS, Bootstrap, Sementic UI</div>
+                        </div>
+                        <div class="ui blue active indicating progress">
+                            <div class="bar" style="width: 70%"></div>
+                            <div class="progress-label-left">Front End Libraries </div>
+                            <div class="label">jQuery, ReactJS</div>
+                        </div>
+
+                        <div class="ui blue active indicating progress">
+                            <div class="bar" style="width: 70%"></div>
+                            <div class="progress-label-left">Data and State Management </div>
+                            <div class="label">Mobx, MongoDB, Socket.io</div>
+                        </div>
+                        <div class="ui orange active indicating progress">
+                            <div class="bar" style="width: 60%"></div>
+                            <div class="progress-label-left">CMS Management </div>
+                            <div class="label">PHP, Wordpress</div>
+                        </div>
+                        <div class="ui orange active indicating progress">
+                            <div class="bar" style="width: 60%"></div>
+                            <div class="progress-label-left">Task and Project Management</div>
+                            <div class="label">Git, Bitbucket, Trello</div>
+                        </div>
+                        <div class="ui orange active indicating progress">
+                            <div class="bar" style="width: 60%"></div>
+                            <div class="progress-label-left">Methodologies</div>
+                            <div class="label">TDD, BDD, Agile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="ui center aligned huge header">Portfolio</div>
+
+            <div class="ui link cards three wide">
+                <div class="card">
+
+                    <div class="image">
+                        <img src="image/portfolio/automatio.png">
+                    </div>
+                    <div class="content">
+                        <div class="header">
+                            <a href="http://automatio.co">AUTOMATIO</a>
+                        </div>
+                        <div class="meta">
+                            <a>PRODUCT</a>
+                        </div>
+                        <div class="description">
+                            <p> automatio.co is a tool for automating, scraping and mining data from any website under few minutes.
+                                It can grab data behind authenticated page, setup scheduling, pagination and more.
+                            </p>
+                            <p> I've had the chance to work on this project with the great team at vanila.io, I mainly worked
+                                on the chrome extension, dom elements, backend and scraping functionalities, experiments
+                                and deployment.</p>
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <b>Tech: </b>ExpressJS, NightmareJS, PuppeteerJS, jQuery, Bootstrap and more
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://entrptaher.github.io/portfolio/assets/img/screencapture-different-tribute-kazi-nazrul-surge-sh-2018-04-16-20_33_11.png">
+                    </div>
+                    <div class="content">
+                        <div class="header">TRIBUTE PAGE</div>
+                        <div class="meta">
+                            <a>PERSONAL PROJECT</a>
+                        </div>
+                        <div class="description">
+                            A freecodecamp challenge project where one has to build a tribute page dedicated to someone.
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <b>Tech: </b>Sementic UI
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://entrptaher.github.io/portfolio/assets/img/screencapture-tall-cord-surge-sh-2018-04-16-20_33_38.png">
+                    </div>
+                    <div class="content">
+                        <div class="header">TAHYLABS</div>
+                        <div class="meta">
+                            <span class="date">PERSONAL PROJECT</span>
+                        </div>
+                        <div class="description">
+                            Started as a base for a simple portfolio but ended up as a fun project. Takes fun little scripts and takes them on a new
+                            level by making small changes.
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <b>Tech: </b>Sementic UI, ReactJS
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://entrptaher.github.io/portfolio/assets/img/screencapture-safaiaous-surge-sh-2018-04-16-20_32_29.png">
+                    </div>
+                    <div class="content">
+                        <div class="header">SAFAIOUS</div>
+                        <div class="meta">
+                            <a>DEVELOPMENT TEAM</a>
+                        </div>
+                        <div class="description">
+                            An experimental team landing page created for web development and e-commerce business.
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <b>Tech: </b>Bulma
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
